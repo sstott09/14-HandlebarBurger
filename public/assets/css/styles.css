@@ -1,0 +1,54 @@
+body {
+    background-image: url("../images/burger-builder-background.png");
+    background-size: 100%;
+}
+
+.titleText {
+    text-align: center;
+    color: gold;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+   
+}
+
+.miniHeading {
+    color: gold;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.addBurger {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moveMe {
+    text-align: center;
+    margin: 0 auto 3% 0;
+
+}
+
+.showBurger {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.devourBurger
+{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Cabin Condensed', sans-serif;
+
+}
+
+.btn {
+    padding-top: 0px;
+}
+
+p {
+    color: palegoldenrod;
+}
