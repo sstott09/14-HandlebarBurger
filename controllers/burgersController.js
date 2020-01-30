@@ -12,29 +12,28 @@ router.get("/", function (req, res) {
         var burgerBurger = {
             burgers: data
         };
+        console.log(burgerBurger)
         //renders index.handlebars
         res.render("index", burgerBurger);
     });
 });
 //POST REQUEST - Create
-router.post("/insertOne", function (req, res) {
+router.post("/burger/create", function (req, res) {
     //passes data into HTML         
-    //call it random name - potato    
-    burger.insertOne(req.body.burger_name, function (cheese) {
+    //call it random name - avacado    
+    burger.insertOne(req.body.burger_name, function (result) {
         //redirects it to main page
+        console.log(result)
         res.redirect("/")
     });
 });
 //POST REQUEST - Update
-router.post("/updateOne/:id", function (req, res) {
+router.put("/updateOne/:id", function (req, res) {
     // holds burgers being devoured 
     var condition = "id = " + req.params.id;
-    burger.updateOne({
-        // Use updateOne from burger.js
-        devoured: req.body.devoured
-    }, condition, function () {
-        //redirects it to main page                         
-        res.redirect("/");
+    burger.updateOne(req.params.id, function(result){
+
+        res.sendStatus(200)
     });
 });
 //POST REQUEST - Delete

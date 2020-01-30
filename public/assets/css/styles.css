@@ -1,15 +1,43 @@
 body {
     background-image: url("../images/burger-builder-background.png");
-    background-size: 100%;
+    background-size: 100%
 }
 
-.titleText {
-    text-align: center;
-    color: gold;
-    font-size: 100px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-   
+.col-md-9 {
+    color: rgb(3, 3, 3);
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding-top: 200px;
+    font-size: 24px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px
 }
+
+.col-md-3 {
+    color: rgb(3, 3, 3);
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px
+}
+
+.col-md-6 {
+    color: rgb(3, 3, 3);
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px
+}
+
 
 .miniHeading {
     color: gold;
@@ -17,38 +45,37 @@ body {
     font-size: 38px;
     font-family: 'Cabin Condensed', sans-serif;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .addBurger {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
 .moveMe {
     text-align: center;
-    margin: 0 auto 3% 0;
-
+    margin: 0 auto 3% 0
 }
 
 .showBurger {
     text-align: center;
     font-size: 28px;
-    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif
 }
 
 .devourBurger
 {
     text-align: center;
     font-size: 28px;
-    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif
 
 }
 
 .btn {
-    padding-top: 0px;
+    padding-top: 0px
 }
 
 p {
-    color: palegoldenrod;
+    color: rgb(241, 62, 31)
 }

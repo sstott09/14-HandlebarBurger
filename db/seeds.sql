@@ -1,6 +1,6 @@
 USE burgers_db;
 
-INSERT INTO burgers (burger_name) VALUES ("Albuquerque Turkey, Hatch Green Chile, and Asadero Burger");
+INSERT INTO burgers (burger_name) VALUES ("Albuquerque Turkey, Hatch Green Chile, and Asadero Cheese Burger");
 
 INSERT INTO burgers (burger_name) VALUES ("The Bosque Double Cheese Bourbon Glazed Onion Western Beyond Burger");
 
