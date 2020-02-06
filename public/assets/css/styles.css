@@ -1,51 +1,63 @@
 body {
-    background-image: url("../images/burger-builder-background.png");
-    background-size: 100%
+    background-image: url(../images/79-790662_burger-transparent-images-mbyi360-burger.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 30px;
+    background-size: 60%;
+    padding-top: 50px
 }
 
-.col-md-9 {
-    color: rgb(3, 3, 3);
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    text-emphasis: size;
+    text-decoration-line: underline
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    text-emphasis: size;
+    text-decoration-line: underline
+
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    text-emphasis: size;
+}
+
+
+.container {
+    color:rgb(20, 20, 20);
     text-align: left;
-    margin-left: 100px;
-    margin-right: 40px;
-    margin-top: 20px;
-    padding-top: 200px;
-    font-size: 24px;
+    /* margin-left: 50px; */
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 16px;
     font-family: 'Cabin Condensed', sans-serif;
     font-weight: bold;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+}
+.notDevoured{
+    background-color: aliceblue;
+    opacity: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.devoured{
+    background-color: blanchedalmond;
+    opacity: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
-.col-md-3 {
-    color: rgb(3, 3, 3);
-    text-align: left;
-    margin-left: 400px;
-    margin-right: 40px;
-    font-size: 24px;
-    font-family: 'Cabin Condensed', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px
-}
-
-.col-md-6 {
-    color: rgb(3, 3, 3);
-    text-align: left;
-    margin-left: 400px;
-    margin-right: 40px;
-    font-size: 24px;
-    font-family: 'Cabin Condensed', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px
-}
-
-
-.miniHeading {
-    color: gold;
-    text-align: center;
-    font-size: 38px;
-    font-family: 'Cabin Condensed', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px
+.col-md-4 {
+    background-color: aliceblue;
+    opacity: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px
 }
 
 .addBurger {
@@ -71,6 +83,10 @@ body {
     font-family: 'Cabin Condensed', sans-serif
 
 }
+.devourBtn{
+    background-color: black;
+    color:white;
+}
 
 .btn {
     padding-top: 0px
@@ -79,3 +95,12 @@ body {
 p {
     color: rgb(241, 62, 31)
 }
+
+@media screen and (max-width: 640px) {
+    }
+
+@media screen and (max-width: 768px) {
+    }
+
+@media screen and (max-width: 980px) {
+    }

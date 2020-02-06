@@ -1,31 +1,34 @@
+<div class="container-fluid">
+    <h1>Burger Builder</h1>
+    <p>by Stott & Co</p>
+</div>
 <div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <img src="" alt="">
-        </div>
-    </div>
     <div class="row">
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5 notDevoured">
+                    <h2><strong>Not Devoured</strong></h2>
                     {{#each burgers}}
-                        {{#unless this.devoured}}
-                            <div class="col-md-9">
-                                {{this.id}}{{this.burger_name}}
-                            </div>
-                            <div class="col-md-3">
-                                <form class="devour-form">
-                                    <input type="hidden" class="burger_id type="text" value={{this.id}}>
-                                    <button type="submit" class="btn btn-default">Devour it!</button>
-                                </form>
-                            </div>
-                        {{/unless}}
+                    {{#unless this.devoured}}
+                    <div class="col-md-12">
+                        {{this.id}}.{{this.burger_name}}
+                    </div>
+                    <div class="col-md-12">
+                        <form class="devour-form">
+                            <input type="hidden" class="burger_id type=" text" value={{this.id}}>
+                            <button type="submit" class="btn btn-default devourBtn">Devour it!</button>
+                        </form>
+                    </div>
+                    {{/unless}}
                     {{/each}}
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-1"><br>
+                </div>
+                <div class="col-md-5 devoured">
+                    <h2>Devoured</h2>
                     {{#each burgers}}
                     {{#if this.devoured}}
-                        <li>{{this.id}}{{this.burger_name}}</li>
+                    {{this.id}}.{{this.burger_name}} <br />
                     {{/if}}
                     {{/each}}
                 </div>
@@ -35,8 +38,9 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <form action="/burger/create" method ="POST">
+        <div class="col-md-4">
+            <form action="/burger/create" method="POST">
+                <h3>Create New Burger</h3>
                 <input type="text" name="burger_name" id="entered_text">
                 <button type="submit" class="btn btn-primary" id="text-entered">Submit</button>
             </form>
