@@ -2,6 +2,17 @@
     <h1>Burger Builder</h1>
     <p>by Stott & Co</p>
 </div>
+{{!-- <div class="container"> --}}
+    <div class="row">
+        <div class="col-md-2">
+            <form action="/burger/create" method="POST">
+                <h3>Create New Burger</h3>
+                <input type="text" name="burger_name" id="entered_text">
+                <button type="submit" class="btn btn-primary" id="text-entered">Submit</button>
+            </form>
+        </div>
+    </div>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -36,14 +47,4 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <form action="/burger/create" method="POST">
-                <h3>Create New Burger</h3>
-                <input type="text" name="burger_name" id="entered_text">
-                <button type="submit" class="btn btn-primary" id="text-entered">Submit</button>
-            </form>
-        </div>
-    </div>
 </div>
