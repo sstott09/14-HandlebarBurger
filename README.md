@@ -11,12 +11,13 @@ A great place to customize a burger!  Hungry? Create and store your favorite bur
 Access this site at: https://evening-thicket-58926.herokuapp.com/
 
 ## Table of Contents
-<a href="#about">About</a>
-<a href="#functionality">GIFS/VIDEOS/SCREENSHOTS</a>
-<a href="#technical-features">Technical Features</a>
-<a href="#requirements">Requirements</a>
-<a href="#build-tools">Build Tools</a>
-<a href="#acknowledgements">Acknowledgements</a>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#functionality">GIFS/VIDEOS/SCREENSHOTS</a></li>
+<li><a href="#technical-features">Technical Features</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#build-tools">Build Tools</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
 
 ### About
 This is a full stack deployed website that allows the user to "create" and "eat" burgers using MySQL, Node, Express, Handlebars and ORM. The user can enter a burger into the "Create a Burger" text box, hit submit, and that burger will then appear in a list of available "Not Devoured" burgers. The user can then "eat" the burger which sends it into a list of "devoured burgers".
