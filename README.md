@@ -13,25 +13,25 @@ Access this site at: https://evening-thicket-58926.herokuapp.com/
 ## Table of Contents
 <ul>
 <li><a href="#about">About</a></li>
-<li><a href="#functionality">GIFS/VIDEOS/SCREENSHOTS</a></li>
+<li><a href="#functionality">Functionality</a></li>
 <li><a href="#technical-features">Technical Features</a></li>
 <li><a href="#requirements">Requirements</a></li>
 <li><a href="#build-tools">Build Tools</a></li>
 <li><a href="#acknowledgements">Acknowledgements</a></li>
 
-### About
+## About
 This is a full stack deployed website that allows the user to "create" and "eat" burgers using MySQL, Node, Express, Handlebars and ORM. The user can enter a burger into the "Create a Burger" text box, hit submit, and that burger will then appear in a list of available "Not Devoured" burgers. The user can then "eat" the burger which sends it into a list of "devoured burgers".
 
-### App Use & Purpose
+## App Use & Purpose
 Upon accessing the app, you will be be directed to the one and only landing page. From here it will call all existing burgers in the SQL database and will persist from any users before..
 
-### GIFS/VIDEOS/SCREENSHOTS
+## Functionality
 
 **Landing Page** 
 ![Landing_Page]![Alt Text]()
 
 **Burger Creation**:
-![Create_a_Burger]![Alt Text]()
+![Create_a_Burger]![Alt Text](https://drive.google.com/file/d/15tCmZbzCjmKAJkTVa8U2Tl1Kw0Ft4ilQ/view)
 
 **Eat Da Burger**:
 ![Devour_Burger]![Alt Text]()
