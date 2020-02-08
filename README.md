@@ -31,7 +31,7 @@ Upon accessing the app, you will be be directed to the one and only landing page
 ![Landing_Page]![Alt Text]()
 
 **Burger Creation**<br>
-![Create_a_Burger]![Alt Text]()
+![Create_a_Burger]![Alt Text](https://github.com/sstott09/14-HandlebarBurger/blob/master/public/assets/images/create-a-burger.gif)
 
 **Eat Da Burger**:
 ![Devour_Burger]![Alt Text]()
