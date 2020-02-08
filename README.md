@@ -31,7 +31,7 @@ Upon accessing the app, you will be be directed to the one and only landing page
 ![Landing_Page]![Alt Text]()
 
 **Burger Creation**:
-![Create_a_Burger]![Alt Text](https://drive.google.com/file/d/15tCmZbzCjmKAJkTVa8U2Tl1Kw0Ft4ilQ/view)
+![Create_a_Burger]![Alt Text](<iframe src="https://drive.google.com/file/d/15tCmZbzCjmKAJkTVa8U2Tl1Kw0Ft4ilQ/preview" width="640" height="480"></iframe>)
 
 **Eat Da Burger**:
 ![Devour_Burger]![Alt Text]()
