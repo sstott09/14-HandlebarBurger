@@ -7,13 +7,12 @@
 ## Burger Builder by Stott & Co
 A great place to customize a burger!  Hungry? Create and store your favorite burgers and mark them as eaten when you're done! 
 
-Access this site at: **https://evening-thicket-58926.herokuapp.com/**
-
 ## Table of Contents
 <ul>
 <li><a href="#about">About</a></li>
 <li><a href="#functionality">Functionality</a></li>
 <li><a href="#technical-features">Technical Features</a></li>
+<li><a href="demo">Demo Application</a></li>
 <li><a href="#requirements">Requirements</a></li>
 <li><a href="#build-tools">Build Tools</a></li>
 <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -36,6 +35,11 @@ Upon accessing the app, you will be be directed to the one and only landing page
 # Technical Features
 This application uses a Model-View-Controller (MVC) model with Handlebars connected to a MySQL database to determine what will render on the browser for the user. This application uses the Express package to control all server applications and the MySQL package to connect to the database. Content is sent to Handlebars.js that controls the HTML content.
 
+# Demo Application
+Getting Hungry yet?
+Access this site at: **https://evening-thicket-58926.herokuapp.com/**
+
+
 # Requirements
 If you are running from the deployed Heroku site, then there are no requirements to use. You can access directly at https://still-wave-02149.herokuapp.com/.
 
@@ -55,10 +59,10 @@ In order to run, you will need to prime your database:
 SQL_PASSWORD = //enter password here - no quotes are needed
 Then run node server.js in the command line. If successful, the console will confirm the PORT that it is running. You will need to visit http://localhost:3000 to test the functionality.
 
-#Build Tools
+# Build Tools
 <ul>
-<li><Node.js v10.16.3</li>
-<li>Node packages:
+<li><Node.js v10.16.3></li>
+<li>Node packages:<br>
 - express v4.17.1 (https://www.npmjs.com/package/express)<br>
 - dotenv v8.2.0 (https://www.npmjs.com/package/dotenv)<br>
 - express-handlebars v3.1.0 (https://www.npmjs.com/package/handlebars)<br>
@@ -67,5 +71,5 @@ Then run node server.js in the command line. If successful, the console will con
 <li>JQuery (https://code.jquery.com/jquery-3.2.1.min.js)</li>
 <li>Deployed on Heroku</li>
 
-#Acknowledgements
+# Acknowledgements
 Thanks to all of the authors of Node.js packages - they are invaluable.
