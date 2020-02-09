@@ -57,14 +57,14 @@ Then run node server.js in the command line. If successful, the console will con
 
 #Build Tools
 <ul>
-<li>Node.js v10.16.3</li>
+<li><Node.js v10.16.3</li>
 <li>Node packages:
-- express v4.17.1 (https://www.npmjs.com/package/express)
-- dotenv v8.2.0 (https://www.npmjs.com/package/dotenv)
-- express-handlebars v3.1.0 (https://www.npmjs.com/package/handlebars)
+- express v4.17.1 (https://www.npmjs.com/package/express)<br>
+- dotenv v8.2.0 (https://www.npmjs.com/package/dotenv)<br>
+- express-handlebars v3.1.0 (https://www.npmjs.com/package/handlebars)<br>
 - msql v2.17.1 (https://www.npmjs.com/package/mysql)</li>
 <li>Bootstrap 4.0.0 (https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css)</li>
-<li>JQuery</li> (https://code.jquery.com/jquery-3.2.1.min.js)
+<li>JQuery (https://code.jquery.com/jquery-3.2.1.min.js)</li>
 <li>Deployed on Heroku</li>
 
 #Acknowledgements
