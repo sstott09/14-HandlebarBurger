@@ -27,14 +27,14 @@ Upon accessing the app, you will be be directed to the one and only landing page
 
 ## Functionality
 
-**Landing Page** 
-![Landing_Page]![Alt Text]()
+**Landing Page**<br>
+![Landing_Page]![Alt Text](https://github.com/sstott09/14-HandlebarBurger/blob/master/public/assets/images/build-a-burger_landing-page.png)
 
 **Burger Creation**<br>
 ![Create_a_Burger]![Alt Text](https://github.com/sstott09/14-HandlebarBurger/blob/master/public/assets/images/create-a-burger.gif)
 
-**Eat Da Burger**:
-![Devour_Burger]![Alt Text]()
+**Eat Da Burger**<br>
+![Devour_Burger]![Alt Text](https://github.com/sstott09/14-HandlebarBurger/blob/master/public/assets/images/devour-a-burger.gif)
 
 # Technical Features
 This application uses a Model-View-Controller (MVC) model with Handlebars connected to a MySQL database to determine what will render on the browser for the user.
