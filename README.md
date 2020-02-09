@@ -47,13 +47,13 @@ If you would like to fork this application and run directly, then you will need 
 
 In order to run, you will need to prime your database:
 
-**Step One: Open MySQL Workbench. You will want to be sure you are connected to a root database using port 3306. If the port is different, then the code will need to be altered.**
+**Step One:<br>Open MySQL Workbench. You will want to be sure you are connected to a root database using port 3306. If the port is different, then the code will need to be altered.**
 
-**Step Two: Run the script in schema.sql. This will setup an empty table that will hold all of the information. Note: once you have loaded data, you will not want to run this again as it will drop any existing database.**
+**Step Two:<br>Run the script in schema.sql. This will setup an empty table that will hold all of the information. Note: once you have loaded data, you will not want to run this again as it will drop any existing database.**
 
-**Step Three: To prime the database with some initial data, run seeds.sql. Skip this step if you would prefer to start the application without any burgers.**
+**Step Three:<br<To prime the database with some initial data, run seeds.sql. Skip this step if you would prefer to start the application without any burgers.**
 
-**Step Four: Create a file named .env, add the following to it, replacing the comment with your root password to MySQL (no quotes):**
+**Step Four:<br>Create a file named .env, add the following to it, replacing the comment with your root password to MySQL (no quotes):**
 
 # SQL Password
 SQL_PASSWORD = //enter password here - no quotes are needed
@@ -61,7 +61,7 @@ Then run node server.js in the command line. If successful, the console will con
 
 # Build Tools
 <ul>
-<li><Node.js v10.16.3></li>
+<li>Node.js v10.16.3</li>
 <li>Node packages:<br>
 - express v4.17.1 (https://www.npmjs.com/package/express)<br>
 - dotenv v8.2.0 (https://www.npmjs.com/package/dotenv)<br>
@@ -72,4 +72,4 @@ Then run node server.js in the command line. If successful, the console will con
 <li>Deployed on Heroku</li>
 
 # Acknowledgements
-Thanks to all of the authors of Node.js packages - they are invaluable.
+Thanks to all of the authors of Node.js packages, as well as to my instructors and fellow students at DU - they are invaluable.
