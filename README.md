@@ -1,7 +1,7 @@
-## University of Denver 
-## Class: DU_VIRT_FSF_PT_09_2019_U.O.MW
-## Program: Full Stack Flex Online Part-Time
-## HandlebarBurger - Eat Da Burger
+### University of Denver 
+### Class: DU_VIRT_FSF_PT_09_2019_U.O.MW
+### Program: Full Stack Flex Online Part-Time
+### HandlebarBurger - Eat Da Burger
 ...........................................................................................................
 
 ## Burger Builder by Stott & Co
@@ -22,10 +22,8 @@ Access this site at: https://evening-thicket-58926.herokuapp.com/
 ## About
 This is a full stack deployed website that allows the user to "create" and "eat" burgers using MySQL, Node, Express, Handlebars and ORM. The user can enter a burger into the "Create a Burger" text box, hit submit, and that burger will then appear in a list of available "Not Devoured" burgers. The user can then "eat" the burger which sends it into a list of "devoured burgers".
 
-## App Use & Purpose
-Upon accessing the app, you will be be directed to the one and only landing page. From here it will call all existing burgers in the SQL database and will persist from any users before..
-
 ## Functionality
+Upon accessing the app, you will be be directed to the one and only landing page. From here it will call all existing burgers in the SQL database and will persist from any users before.
 
 **Landing Page**<br>
 ![Alt Text](https://github.com/sstott09/14-HandlebarBurger/blob/master/public/assets/images/build-a-burger_landing-page.png)
